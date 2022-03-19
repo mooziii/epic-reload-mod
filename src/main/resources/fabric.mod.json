@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "epicreloadmod",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "Epic Reload Mod",
   "description": "Mod that adds an epic reload resources button",
   "authors": [
