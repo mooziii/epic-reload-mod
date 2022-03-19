@@ -8,8 +8,7 @@
     "mooziii"
   ],
   "contact": {
-    "website": "https://github.com/mooziii",
-    "repo": "https://github.com/mooziii/epicreloadmod"
+    "sources": "https://github.com/mooziii/epic-reload-mod"
   },
   "license": "MIT",
   "icon": "assets/epicreloadmod/icon.png",
