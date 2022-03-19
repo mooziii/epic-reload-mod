@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "epicreloadmod",
+  "version": "1.0.0",
+  "name": "Epic Reload Mod",
+  "description": "Mod that adds an epic reload resources button",
+  "authors": [
+    "mooziii"
+  ],
+  "contact": {
+    "website": "https://github.com/mooziii",
+    "repo": "https://github.com/mooziii/epicreloadmod"
+  },
+  "license": "MIT",
+  "icon": "assets/epicreloadmod/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.obsilabor.reloadmod.ReloadMod"
+    ]
+  },
+  "mixins": [
+    "epicreloadmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}
