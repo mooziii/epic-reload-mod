@@ -4,8 +4,6 @@ import net.fabricmc.api.ClientModInitializer
 
 class ReloadMod : ClientModInitializer {
 
-    override fun onInitializeClient() {
-
-    }
+    override fun onInitializeClient() {}
 
 }

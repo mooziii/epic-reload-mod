@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "epicreloadmod",
-  "version": "1.1.0",
+  "version": "${version}",
   "name": "Epic Reload Mod",
   "description": "Mod that adds an epic reload resources button",
   "authors": [
@@ -22,7 +22,6 @@
     "epicreloadmod.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.14.6",
-    "minecraft": "1.19"
+    "minecraft": "${mcVersion}"
   }
 }

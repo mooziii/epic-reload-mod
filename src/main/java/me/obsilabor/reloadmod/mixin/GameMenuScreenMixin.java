@@ -18,6 +18,6 @@ public abstract class GameMenuScreenMixin extends Screen {
 
     @Inject(method = "initWidgets", at = @At("TAIL"))
     private void injectReloadResourcesButton(CallbackInfo ci) {
-        this.addDrawableChild(new ButtonWidget(0, this.height - 20, 98, 20, Text.translatable("gui.reloadresources"), (buttonWidgetx) -> this.client.reloadResources()));
+        this.addDrawableChild(new ButtonWidget(0, this.height - 20, 98, 20, Text.translatable("gui.reloadResources"), (buttonWidgetx) -> this.client.reloadResources()));
     }
 }
