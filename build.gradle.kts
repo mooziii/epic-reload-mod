@@ -48,6 +48,7 @@ modrinth {
     versionType.set("release")
     gameVersions.addAll(listOf(mcVersion))
     loaders.add("fabric")
+    loaders.add("quilt")
 
     uploadFile.set(tasks.remapJar.get())
 }
