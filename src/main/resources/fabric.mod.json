@@ -22,6 +22,6 @@
     "epicreloadmod.mixins.json"
   ],
   "depends": {
-    "minecraft": "${mcVersion}"
+    "minecraft": ">=${mcVersion}"
   }
 }

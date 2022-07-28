@@ -1,11 +1,11 @@
 plugins {
-    kotlin("jvm") version "1.7.0"
+    kotlin("jvm") version "1.7.10"
     id("fabric-loom") version "0.12-SNAPSHOT"
     id("com.modrinth.minotaur") version "2.+"
     java
 }
 
-val mcVersion = "1.19"
+val mcVersion = "1.19.1"
 group = "me.obsilabor"
 version = "1.2.0+mc$mcVersion"
 
@@ -16,9 +16,9 @@ repositories {
 dependencies {
     implementation(kotlin("stdlib"))
     minecraft("com.mojang:minecraft:$mcVersion")
-    mappings("net.fabricmc:yarn:1.19+build.2")
-    modImplementation("net.fabricmc:fabric-loader:0.14.7")
-    modImplementation("net.fabricmc:fabric-language-kotlin:1.8.0+kotlin.1.7.0")
+    mappings("net.fabricmc:yarn:1.19.1+build.1")
+    modImplementation("net.fabricmc:fabric-loader:0.14.8")
+    modImplementation("net.fabricmc:fabric-language-kotlin:1.8.2+kotlin.1.7.10")
 }
 
 tasks {
